@@ -21,12 +21,13 @@ public class Monster {
 	
 	public void setHealth(double health) { this.health = health;}
 	public void setStrength(double strength) { this.strength = strength;}
-	public double attack()
-	{
-		return (Math.random() * (m.getStrength()));
-	}
+	
 	public void takeDamage(double damage)
 	{
 		 health -= damage;
+	}
+	public double attack()
+	{
+		return (Math.random() * (m.getStrength()));
 	}
 }
