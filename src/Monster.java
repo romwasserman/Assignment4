@@ -2,8 +2,6 @@
 public class Monster {
 	public double health,strength;
 	Monster newMonster1 = new Monster();
-	Monster newMonster2 = new Monster();
-	Monster newMonster3 = new Monster();
 	Monster newMonster4 = new Monster();
 	Monster m = new Monster();
 	
