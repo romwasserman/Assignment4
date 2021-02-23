@@ -26,8 +26,19 @@ public class Monster {
 	{
 		 health -= damage;
 	}
+
+	
 	public double attack()
 	{
 		return (Math.random() * (m.getStrength()));
+
+	}
+	public boolean isAlive()
+	{
+		if (m.getHealth() > 0)
+		{
+			return true;
+		}
+		return false;
 	}
 }
